@@ -1,0 +1,14 @@
+body {
+    background: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+}
+
+header, section, footer {
+    margin: auto;
+    width: 60%;
+    overflow: hidden;
+}
+
+img {
+    width: 60%;
+}
