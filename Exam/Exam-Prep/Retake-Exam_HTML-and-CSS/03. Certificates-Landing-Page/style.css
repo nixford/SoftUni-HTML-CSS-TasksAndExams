@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Montserrat:ital,wght@0,400;0,500;1,400&display=swap');
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+
+body {
+    margin: 0%; /**To be avoided empty spaces between the body and the page**/
+    font-family: 'Lato', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 5px 4px #D7D8DC;
+    width: 80%;
+    margin: 0 auto;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+    background: white;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-wrapper {
+    max-width: 180px;
+    padding: 20px;
+}
+
+.logo-wrapper img {
+    width: 70%;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+    padding: 20px 0;
+    border-top: 2px solid rgb(0, 0, 0 / 0%)
+}
+
+.current {
+    border-top: 3px solid #42abf8;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4F5C6B;
+}
+
+.profile {
+    background: #42abf8;
+    border-radius: 50%;
+    padding: 8px 11px;
+    max-height: 24px;
+    position: relative;
+    top: 15px;
+    left: -9px;
+    box-shadow: 1px 1px 5px -1px #68addc;
+}
+
+.profile a {
+    color: white;
+}
+
+.certificates-info {
+    background: linear-gradient(
+        rgba(255, 255, 255, 80%), 
+        rgba(255, 255, 255, 70%)
+        ),
+        url(./images/hero-certificates.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover; /*Strch the image all over the div*/
+    display: flex;
+    padding: 15% 15% 5% 15%;
+    position: relative;
+    top: -77px;
+    z-index: -1;
+}
+
+.certificates-info-content div {
+    background: #29394B;
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.certificates-info-content > p {
+    font-style: italic;
+    color: rgb(93 88 88);
+    position: absolute;
+}
+
+.certificates-info-content h3 {
+    margin-top: 0;
+}
+
+.certificates-info-images {
+    display: flex;
+    align-items: flex-end;
+}
+
+.diploma {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.diploma h3 {
+    text-align: center;
+    font-size: 27px;
+}
+
+.diploma-content {
+    background: #F4F5F7;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.diploma-content p {
+    padding: 0;
+    margin: 0;
+}
+
+.diploma > p {
+    padding: 20px;
+}
+
+.apply {
+    background: linear-gradient(
+        rgba(73, 73, 90, 0.5), 
+        rgba(73, 73, 90, 0.7)
+        ),
+        url(./images/sign-up-prompt-background.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover; /*Strch the image all over the div*/
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 12px;
+    padding: 33px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-light{
+    background:white;
+    color: #42abf8;
+    border: 1px solid white;
+    margin-right: 30px; /*The after is included in this margin */
+}
+
+/* .btn-light::after { Creates element after btn-light with content '|' */
+    /* content: '|';
+    display: inline-block;
+    height: 20px;
+    position: relative; 
+    left: 33px;
+    color: rgba(255, 255, 255); */
+/* } */
+
+.separator {
+    position: relative;
+    right: 15px;
+    font-size: 30px;
+}
+
+.btn-outline {
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.apply h3 {
+    font-size: 24px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #3E4C5D;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 30px auto 0 auto;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer li {
+    margin: 10px;
+    list-style: none;
+    font-size: 12px;
+}
+
+footer li i, 
+footer li a {
+    color: #3E4C5D;
+}
+
+footer li a {
+    text-decoration: none;
+}
+
+.logo-and-copyright-wrapper {
+    display: flex;
+    font-size: 15px;
+}
+
+.copyright {
+    align-self: center;
+}
