@@ -1,2 +1,2 @@
 # SoftUni-HTML-CSS-TasksAndExams
-My HTML &amp; CSS solutions of tasks and exams
+My HTML & CSS solutions of tasks and exams
