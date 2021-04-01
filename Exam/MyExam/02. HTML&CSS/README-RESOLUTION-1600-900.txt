@@ -1,0 +1,1 @@
+Display Resolution: 1600 x 900
